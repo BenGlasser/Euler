@@ -26,10 +26,14 @@ numbers = '''08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
 j = 0
 matrix = numbers.split('\n')
 for i in matrix:
-    i = i.split(' ')
+    i = map(int, i.split(' '))
     matrix[j] = i
     j+=1
-j=0
 for i in matrix:
-    print map(mul, i[j:j+4])
+    j = 0
+    for k in i[0:-4]:
+        print reduce(lambda x, y: x*y, i[j:j+4])
+        print reduce(lambda x, y: x*y, i[j:j+4])
+        j+=1
+
 
