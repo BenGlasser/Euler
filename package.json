@@ -1,0 +1,22 @@
+{
+  "name": "euler",
+  "version": "1.0.0",
+  "description": "solutions to problems at projecteuler.net",
+  "main": "bin/index.js",
+  "bin": {
+    "euler": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenGlasser/Euler.git"
+  },
+  "author": "Ben Glasser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenGlasser/Euler/issues"
+  },
+  "homepage": "https://github.com/BenGlasser/Euler#readme"
+}
